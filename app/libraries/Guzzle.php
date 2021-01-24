@@ -66,8 +66,7 @@ class Guzzle {
                             'contents' => fopen($PostData['file']['tmp_name'], 'r')
                         ],
                     ],
-                ],
-		    	
+                ]
 		    );
 		    // echo "<pre>";
 		    // print_r($response);
